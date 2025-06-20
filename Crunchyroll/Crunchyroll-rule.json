@@ -1,29 +1,27 @@
-{
-  "rules": [
-    {
-      "active": true,
-      "name": "Crunchyroll bypass",
-      "match": [
-        "*://*.crunchyroll.com/*"
-      ],
-      "bypassUrlPatterns": [
-        "*://static.crunchyroll.com/",
-        "*://metrics.crunchyroll.com/",
-        "*://eec.crunchyroll.com/"
-      ],
-      "bypassResourceTypes": [
-        "font",
-        "image",
-        "imageset",
-        "media",
-        "object",
-        "object_subrequest",
-        "stylesheet",
-        "web_manifest"
-      ],
-      "staticExtensions": "/\\.(jpg|jpeg|png|gif|webp|mp4|m4s|js|css|woff2?|ttf|svg|ico|json|xml)$/i",
-      "fallbackDirect": true,
-      "proxyId": "direct"
-    }
-  ]
-}
+[
+  {
+    "active": true,
+    "name": "Crunchyroll bypass",
+    "match": [
+      "*://*.crunchyroll.com/*"
+    ],
+    "bypassUrlPatterns": [
+      "*://static.crunchyroll.com/",
+      "*://metrics.crunchyroll.com/",
+      "*://eec.crunchyroll.com/"
+    ],
+    "bypassResourceTypes": [
+      "font",
+      "image",
+      "imageset",
+      "media",
+      "object",
+      "object_subrequest",
+      "stylesheet",
+      "web_manifest"
+    ],
+    "staticExtensions": "/\\.(jpg|jpeg|png|gif|webp|mp4|m4s|js|css|woff2?|ttf|svg|ico|json|xml)$/i",
+    "fallbackDirect": true,
+    "proxyId": "direct"
+  }
+]
