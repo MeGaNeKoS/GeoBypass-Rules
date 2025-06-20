@@ -1,0 +1,13 @@
+[
+  {
+    "id": "5b417017-7481-43d4-8093-422bd5982468",
+    "type": "socks",
+    "host": "p.webshare.io",
+    "port": 80,
+    "proxyDNS": true,
+    "label": "US",
+    "username": "GeoBypassCommunity-1",
+    "password": "UseWithRespect1",
+    "notifyIfDown": true
+  }
+]
