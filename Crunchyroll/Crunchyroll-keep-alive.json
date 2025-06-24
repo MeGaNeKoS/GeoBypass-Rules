@@ -1,9 +1,11 @@
 {
-  "f479230f-b666-488a-acaf-7f799cb09347": {
-    "active": true,
-    "tabUrls": [
-      "*.crunchyroll.com"
-    ],
-    "testProxyUrl": "https://static.crunchyroll.com/config/cx-web/config.json"
+  "keepAliveRules": {
+    "5b417017-7481-43d4-8093-422bd5982468": {
+      "active": true,
+      "tabUrls": [
+        "*.crunchyroll.com"
+      ],
+      "testProxyUrl": "https://static.crunchyroll.com/config/cx-web/config.json"
+    }
   }
 }

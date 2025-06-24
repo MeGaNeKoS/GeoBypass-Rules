@@ -1,9 +1,11 @@
 {
-  "c1bc70c7-5010-4ebe-82db-d835600453fe": {
-    "active": true,
-    "tabUrls": [
-      "*.bilibili.tv"
-    ],
-    "testProxyUrl": "https://p.bstarstatic.com/fe-static/deps/bilibili_tv.ico"
+  "keepAliveRules": {
+    "5b417017-7481-43d4-8093-422bd5982468": {
+      "active": true,
+      "tabUrls": [
+        "*.bilibili.tv"
+      ],
+      "testProxyUrl": "https://p.bstarstatic.com/fe-static/deps/bilibili_tv.ico"
+    }
   }
 }

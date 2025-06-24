@@ -1,75 +1,24 @@
-[
-  {
-    "name": "Bilibili bypass",
-    "match": [
-      "*://*.bilibili.tv/*"
-    ],
-    "bypassResourceTypes": [
-      "font",
-      "image",
-      "imageset",
-      "media",
-      "object",
-      "object_subrequest",
-      "stylesheet",
-      "web_manifest"
-    ],
-    "staticExtensions": "/\\.(jpg|jpeg|png|gif|webp|mp4|m4s|js|css|woff2?|ttf|svg|ico|json|xml)$/i",
-    "fallbackDirect": true,
-    "proxyId": "c1bc70c7-5010-4ebe-82db-d835600453fe",
-    "active": true,
-    "compiledMatch": {
-      "valid": true,
-      "examples": [
-        "http://bilibili.tv/",
-        "http://bilibili.tv/foo",
-        "http://bilibili.tv/bar/baz/",
-        "http://www.bilibili.tv/",
-        "http://www.bilibili.tv/foo",
-        "http://www.bilibili.tv/bar/baz/",
-        "http://foo.bar.bilibili.tv/",
-        "http://foo.bar.bilibili.tv/foo",
-        "http://foo.bar.bilibili.tv/bar/baz/",
-        "https://bilibili.tv/",
-        "https://bilibili.tv/foo",
-        "https://bilibili.tv/bar/baz/",
-        "https://www.bilibili.tv/",
-        "https://www.bilibili.tv/foo",
-        "https://www.bilibili.tv/bar/baz/",
-        "https://foo.bar.bilibili.tv/",
-        "https://foo.bar.bilibili.tv/foo",
-        "https://foo.bar.bilibili.tv/bar/baz/"
-      ],
-      "patterns": [
+{
+  "rules": [
+    {
+      "active": true,
+      "proxyId": "direct",
+      "name": "Bilibili bypass",
+      "match": [
         "*://*.bilibili.tv/*"
       ],
-      "config": {
-        "supportedSchemes": [
-          "http",
-          "https",
-          "file",
-          "ftp"
-        ],
-        "schemeStarMatchesWs": false,
-        "strict": false
-      }
-    },
-    "compiledBypassUrlPatterns": {
-      "valid": true,
-      "examples": [],
-      "patterns": [],
-      "config": {
-        "strict": false
-      }
-    },
-    "compiledForceProxyUrlPatterns": {
-      "valid": true,
-      "examples": [],
-      "patterns": [],
-      "config": {
-        "strict": false
-      }
-    },
-    "compiledStaticExtensions": {}
-  }
-]
+      "bypassResourceTypes": [
+        "font",
+        "image",
+        "imageset",
+        "media",
+        "object",
+        "object_subrequest",
+        "stylesheet",
+        "web_manifest"
+      ],
+      "staticExtensions": "/\\.(jpg|jpeg|png|gif|webp|mp4|m4s|js|css|woff2?|ttf|svg|ico|json|xml)$/i",
+      "fallbackDirect": true
+    }
+  ]
+}
