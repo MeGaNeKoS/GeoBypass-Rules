@@ -3,10 +3,10 @@
     {
       "type": "socks",
       "proxyDNS": true,
-      "host": "p.webshare.io",
-      "port": 80,
-      "username": "GeoBypassCommunity-1",
-      "password": "UseWithRespect1",
+      "host": "us.community-proxy.meganeko.dev",
+      "port": 5445,
+      "username": "GeoBypassCommunity-US",
+      "password": "UseWithRespect",
       "id": "5b417017-7481-43d4-8093-422bd5982468",
       "label": "US",
       "notifyIfDown": true
